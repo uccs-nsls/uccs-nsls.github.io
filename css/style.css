@@ -1,14 +1,26 @@
-/* your styles go here */
 
+main {
+  /* This hides the content. Show it with JS when the page loads */
+  display: none;
+}
 
+header {
+  margin-top: 10%;
+}
 .centered{
   text-align: center;
 }
-.main-logo {
+.uccs-logo {
+  width: 16em;
+  margin: 0 auto;
+}
+
+.nsls-logo {
   width: 12em;
   margin: 0 auto;
 }
 
-#main-container {
-  margin-top: 10%;
+
+h3.cursive {
+  margin-top: 0;
 }
